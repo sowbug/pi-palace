@@ -11,6 +11,8 @@ lines = f.readlines()
 f.close()
 
 PAO = {}
+
+print "KEY\n==="
 for line in lines:
   line = line.strip()
   if not line or line.startswith("#") or line.startswith("Number"):
@@ -32,8 +34,10 @@ PAO['-'] = { 'person': 'nobody',
              'action': 'does nothing to',
              'object': 'nothing' }
 
+print
+
 numstr = str(PI)
-print "Generating mnemonics for %d digits..." % len(numstr)
+print "Generating mnemonics for %d digits...\n" % len(numstr)
 while len(numstr) % 3 != 0:
   numstr += "-"
 
