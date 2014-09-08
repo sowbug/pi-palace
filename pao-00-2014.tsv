@@ -2,7 +2,7 @@ Number	Person	Action	Object	Mnemonic	Category	Reference
 0	Emma Watson	casting a spell on	dragon	She zeroes out the dragon	Movie Actress	Harry Potter
 1	Famke Janssen	betting with	single poker chip	One last poker chip	Movie Actress	Rounders
 2	Ingrid Bergman	climbing aboard	last airplane	2 looks like air stairs	Movie Actress	Casablanca
-3	Julia Roberts	sticking hand into	necklace box	3 looks like clam (clamshell clapping)	Movie Actress	Pretty Woman
+3	Julia Roberts	sticking hand into	necklace box	3 looks like clamshell clapping	Movie Actress	Pretty Woman
 4	Linda Hamilton	using knife to stab	picnic table	4 looks like sharp dagger	Movie Actress	Terminator 2
 5	Tina Fey	spilling coffee on	t-shirt	Big 5 on the blue t-shirt	Movie Actress	Mean Girls
 6	Scarlett Johansson	arranging bouquet of	flowers	There are six flowers	Movie Actress	Lost in Translation
@@ -27,55 +27,55 @@ Number	Person	Action	Object	Mnemonic	Category	Reference
 25	Dorothy	uses a house to smash	the wicked witch		Movie by Year	The Wizard of Oz
 26	Dimmesdale	flogs himself with	whip		Movie by Year	The Scarlet Letter
 27	Noah	fills the Ark with	two of each kind of animal		Movie by Year	Noah's Ark
-28						
-29						
-30						
-31					Movie by Year	
-32					Movie by Year	
-33					Movie by Year	
-34					Movie by Year	
-35					Movie by Year	
-36					Movie by Year	
-37					Movie by Year	
-38					Movie by Year	
-39					Movie by Year	
+28
+29
+30
+31					Movie by Year
+32					Movie by Year
+33					Movie by Year
+34					Movie by Year
+35					Movie by Year
+36					Movie by Year
+37					Movie by Year
+38					Movie by Year
+39					Movie by Year
 40	Pinocchio	grows from his nose area	nose		Movie by Year	Pinocchio
 41	Charles Foster Kane	on deathbed utters	Rosebud (sled)		Movie by Year	Citizen Kane
 42	Rick	hides letters of transit in	Sam's piano		Movie by Year	Casablanca
 43	Larry Talbot	chips out of a block of ice	Frankenstein		Movie by Year	Frankenstein Meets the Wolf Man
-44					Movie by Year	
-45					Movie by Year	
-46					Movie by Year	
-47					Movie by Year	
-48					Movie by Year	
-49					Movie by Year	
-50					Movie by Year	
-51					Movie by Year	
-52					Movie by Year	
-53					Movie by Year	
-54					Movie by Year	
-55					Movie by Year	
-56					Movie by Year	
-57					Movie by Year	
-58					Movie by Year	
-59					Movie by Year	
-60					Movie by Year	
-61					Movie by Year	
-62					Movie by Year	
-63					Movie by Year	
-64					Movie by Year	
-65					Movie by Year	
-66					Movie by Year	
-67					Movie by Year	
-68					Movie by Year	
-69					Movie by Year	
-70					Movie by Year	
-71					Movie by Year	
-72					Movie by Year	
-73					Movie by Year	
-74					Movie by Year	
-75					Movie by Year	
-76					Movie by Year	
+44					Movie by Year
+45					Movie by Year
+46					Movie by Year
+47					Movie by Year
+48					Movie by Year
+49					Movie by Year
+50					Movie by Year
+51					Movie by Year
+52					Movie by Year
+53					Movie by Year
+54					Movie by Year
+55					Movie by Year
+56					Movie by Year
+57					Movie by Year
+58					Movie by Year
+59					Movie by Year
+60					Movie by Year
+61					Movie by Year
+62					Movie by Year
+63					Movie by Year
+64					Movie by Year
+65					Movie by Year
+66					Movie by Year
+67					Movie by Year
+68					Movie by Year
+69					Movie by Year
+70					Movie by Year
+71					Movie by Year
+72					Movie by Year
+73					Movie by Year
+74					Movie by Year
+75					Movie by Year
+76					Movie by Year
 77	Roy Neary	builds in his living room	Devil's Tower		Movie by Year	Close Encounters of the Third Kind
 78	John Blutarsky	smashes on staircase	guitar		Movie by Year	Animal House
 79	Navin Johnson	is picking out for girlfriend	thermos		Movie by Year	The Jerk
