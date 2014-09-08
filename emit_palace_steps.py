@@ -56,6 +56,7 @@ while len(numstr) % 3 != 0:
 
 print "\n\nMEMORIZE THIS\n=============\n"
 
+loci = 1
 digits = 1
 # http://stackoverflow.com/a/1162636/344467
 for (d1, d2, d3) in izip(islice(numstr, 0, None, 3),
@@ -65,7 +66,8 @@ for (d1, d2, d3) in izip(islice(numstr, 0, None, 3),
                          PAO[d2]['action'],
                          PAO[d3]['object'])
   phrase = "%58s" % phrase
-  print "%3d-%3d:" % (digits, digits + 2), phrase, "     => %s%s%s" % (d1,
-                                                                       d2,
-                                                                       d3)
+  print "%3d %3d-%3d:" % (loci, digits, digits + 2), phrase, " => %s%s%s" % (d1,
+                                                                             d2,
+                                                                             d3)
+  loci += 1
   digits += 3
