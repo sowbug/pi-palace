@@ -12,7 +12,10 @@ f.close()
 
 PAO = {}
 
-print "KEY\n==="
+person_len_max = 0
+action_len_max = 0
+object_len_max = 0
+print "KEY\n===\n"
 for line in lines:
   line = line.strip()
   if not line or line.startswith("#") or line.startswith("Number"):
@@ -29,24 +32,40 @@ for line in lines:
   PAO[number] = { 'person': person,
                   'action': action,
                   'object': obj }
+  if len(person) > person_len_max:
+    person_len_max = len(person)
+  if len(action) > action_len_max:
+    action_len_max = len(action)
+  if len(obj) > object_len_max:
+    object_len_max = len(obj)
 
 PAO['-'] = { 'person': 'nobody',
              'action': 'does nothing to',
              'object': 'nothing' }
+MAX_PHRASE_LEN = person_len_max + action_len_max + object_len_max + 2
 
 print
 
+
 numstr = str(PI)
-print "Generating mnemonics for %d digits...\n" % len(numstr)
+#print "\nmax phrase len:", MAX_PHRASE_LEN
+print "Now generating mnemonics for %d digits..." % len(numstr)
+
 while len(numstr) % 3 != 0:
   numstr += "-"
+
+print "\n\nMEMORIZE THIS\n=============\n"
 
 digits = 1
 # http://stackoverflow.com/a/1162636/344467
 for (d1, d2, d3) in izip(islice(numstr, 0, None, 3),
                          islice(numstr, 1, None, 3),
                          islice(numstr, 2, None, 3)):
-  print "%3d-%3d:" % (digits, digits + 2),\
-    PAO[d1]['person'], PAO[d2]['action'], PAO[d3]['object'],\
-    "(%s%s%s)" % (d1, d2, d3)
+  phrase = "%s %s %s" % (PAO[d1]['person'],
+                         PAO[d2]['action'],
+                         PAO[d3]['object'])
+  phrase = "%58s" % phrase
+  print "%3d-%3d:" % (digits, digits + 2), phrase, "     => %s%s%s" % (d1,
+                                                                       d2,
+                                                                       d3)
   digits += 3
